@@ -1,5 +1,5 @@
 # Mobile Anwendungsentwicklung
-**Übungsaufgaben im Wintersemester 2022 (5. Studienplansemester)**
+**Übungsaufgaben im Wintersemester 2021/2022 (5. Studienplansemester)**
 
 _Berliner Hochschule für Technik_  
 _Dozent: Michael Steppat_
@@ -10,7 +10,7 @@ Bearbeitung von fünf Übungsaufgaben zur Erlernung grundlegender Prinzipien von
 
 ### English
 # Mobile Application Development
-**Exercises of winter semester 2022 (5th study plan semester)**
+**Exercises of winter semester 2021/2022 (5th study plan semester)**
 
 _Berlin University of Applied Sciences and Technology_  
 _Lecturer: Michael Steppat_
