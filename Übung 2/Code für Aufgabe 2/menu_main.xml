@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.gpsreceivermenu.MainActivity">
+
+    <item
+        android:id="@+id/latitude"
+        android:orderInCategory="100"
+        android:title="@string/latitude"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/longitude"
+        android:orderInCategory="100"
+        android:title="@string/longitude"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/altitude"
+        android:orderInCategory="100"
+        android:title="@string/altitude"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/speed"
+        android:orderInCategory="100"
+        android:title="@string/speed"
+        app:showAsAction="never" />
+
+</menu>

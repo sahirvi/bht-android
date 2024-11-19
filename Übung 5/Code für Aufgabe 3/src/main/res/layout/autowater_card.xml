@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--@author: Sahiram Ravikumar-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/autowater_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_autowater">
+
+    <!--Auto Title-->
+    <TextView
+        android:id="@+id/auto_or_manual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/dash_manual_watering_title"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!--Auto Text-->
+    <TextView
+        android:id="@+id/autowater_text"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/auto_or_manual"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/dash_auto_water_text"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <!--Auto Switch-->
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/autowater_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:theme="@style/Custom.Widget.SwitchCompat" />
+</RelativeLayout>

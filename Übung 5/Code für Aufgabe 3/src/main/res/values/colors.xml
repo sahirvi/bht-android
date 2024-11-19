@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--@author: Dominik Domonell-->
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey">#808080</color>
+    <color name="light_grey">#DFDFDF</color>
+    <color name="creme">#FAF6E9</color>
+    <color name="red">#EB573D</color>
+    <color name="light_green">#C0E8D3</color>
+    <color name="dark_green">#007C86</color>
+    <color name="light_blue">#BFD6F9</color>
+    <color name="dark_blue">#505DA7</color>
+
+</resources>

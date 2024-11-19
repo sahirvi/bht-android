@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--@author: Sahiram Ravikumar-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dash_warn_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/custom_warn"
+    android:padding="16dp"
+    android:clickable="true"
+    >
+
+    <!--Warn Icon-->
+    <ImageView
+        android:id="@+id/warn_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_baseline_warning_24"
+        tools:tint="@color/red"
+        android:contentDescription="@string/warningSymbol" />
+
+    <!--Warn Title-->
+    <TextView
+        android:id="@+id/dash_warn_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginVertical="2dp"
+        android:layout_toStartOf="@+id/forward_arrow"
+        android:layout_toEndOf="@+id/warn_icon"
+        android:text="@string/dash_warning_to_dry_title"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!--Warn Text-->
+    <TextView
+        android:id="@+id/dash_warn_zone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dash_warn_message"
+        android:layout_marginStart="8dp"
+        android:layout_marginVertical="2dp"
+        android:layout_toStartOf="@+id/forward_arrow"
+        android:layout_toEndOf="@+id/warn_icon"
+        android:hint="@string/dash_warning_to_dry_text"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <!--Forward Icon-->
+    <ImageButton
+        android:id="@+id/forward_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/forward_icon"
+        android:contentDescription="@string/forward" />
+
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<resources>
+    <!--@author: Dominik Domonell-->
+
+    <!-- Toolbar -->
+    <string name="app_name">Bloom</string>
+    <string name="app_name_desc">Logo</string>
+
+    <!-- OnBoarding -->
+    <string name="onboarding1">Mit Bloom m&#252;ssen\n deine Pflanzen\nnie mehr Durst haben!</string>
+    <string name="onboarding2">Sensoren messen die\n Bodenfeuchtigkeit in\n verschiedenenen Gie&#223;zonen</string>
+    <string name="onboarding3">Bloom kann automatisch\n gie&#223;en oder warnen,\n wenn es zu trocken ist</string>
+    <string name="onboardingButton">Weiter</string>
+
+    <!-- Welcome -->
+    <string name="welcome_text">Hi Bloomer</string>
+    <string name="welcome_button">Zum Login</string>
+    <string name="welcome_signup_text">Du bist noch kein Bloomer?</string>
+    <string name="welcome_signup_link">Zur Registrierung</string>
+
+    <!-- Sign Up -->
+    <string name="reg_title">Registrierung</string>
+    <string name="reg_mail">Email</string>
+    <string name="reg_PW">Passwort</string>
+    <string name="reg_PW_repeat">Passwort wiederholen</string>
+    <string name="error_signup_1">Dein Passwort muss aus mindestens 8 Zeichen und einem Sonderzeichen bestehen</string>
+    <string name="error_signup_2">Die beiden Passwörter stimmen nicht überein</string>
+    <string name="reg_button">Registrieren</string>
+    <string name="reg_bloomer">Du bist schon ein Bloomer?</string>
+    <string name="reg_login">Zum Login</string>
+
+    <!-- Login -->
+    <string name="login_title">Login</string>
+    <string name="login_email">Email</string>
+    <string name="login_pw">Passwort</string>
+    <string name="login_btn">Einloggen</string>
+    <string name="login_forgot_pw">Passwort vergessen?</string>
+    <string name="login_no_bloomer">Du bist noch kein Bloomer?</string>
+    <string name="login_reg">Zur Registrierung</string>
+    <string name="login_error">E-Mail oder Passwort sind leider falsch</string>
+
+    <!-- Dahsboard -->
+    <string name="dash_title">Hi, Bloomer</string>
+    <string name="dash_auto_water_title">Automatische Bew&#228;sserung</string>
+    <string name="dash_auto_water_text">Bloom gie&#223;t alle deine Pflanzen automatisch f&#252;r dich</string>
+    <string name="dash_zone_title">Deine Gie&#223;zonen</string>
+    <string name="dash_warn_bucket_title">Wassertank leer</string>
+    <string name="dash_warn_bucket_text">Bitte f&#252;lle Gie&#223;wasser nach</string>
+    <string name="dash_manual_watering_title">Manuelle Bew&#228;sserung</string>
+    <string name="dash_manual_watering_text">Bloom warnt dich, wenn deine Pflanzen zu trocken sind und du entscheidest, wann du sie gie&#223;t</string>
+    <string name="dash_warning_to_dry_title">Erde zu trocken</string>
+    <string name="dash_warning_to_dry_text">Bitte gie&#223; Zone</string>
+    <string name="dash_no_zone_text">Richte deine erste Gie&#223;zone ein!</string>
+
+    <!-- Added/Deleted Zones -->
+    <string name="addad_title">Hi, Bloomer</string>
+    <string name="added_container_title">Automatische Bew&#228;sserung</string>
+    <string name="added_container_text">Bloom gie&#223;t alle deine Pflanzen automatisch f&#252;r dich</string>
+    <string name="added_zones_title">Deine Gie&#223;zonen</string>
+
+    <!-- Zone Detail -->
+    <string name="zone_id">1</string>
+    <string name="zone_name">Kr&#228;uter</string>
+    <string name="zone_moisture_title">Feuchtigkeit</string>
+    <string name="zone_moisture_text">Noch nie gemessen</string>
+    <string name="moisture_value_percentage">10%</string>
+    <string name="zone_auto_title">Automatisches Gie&#223;en</string>
+    <string name="zone_watering_text">Bloom gie&#223;t hier gerade</string>
+    <string name="zone_manual_title">Manuelles Gie&#223;en</string>
+    <string name="zone_last_watered">Noch nie gegossen</string>
+    <string name="timer_time">09:41</string>
+    <string name="zone_stop_btn">Gie&#223;en \nstoppen</string>
+    <string name="zone_btn">Gie&#223;en</string>
+    <string name="zone_delete">Gie&#223;zone l&#246;schen</string>
+    <string name="zone_warning_to_dry">Erde zu trocken, bitte gie&#223;en</string>
+    <string name="zone_warning_bat_low">Sensor aufladen</string>
+    <string name="last_watered_now">Gerade gegossen</string>
+    <string name="last_watered_minute">Gegossen vor %1$d Minute%2$s</string>
+    <string name="last_watered_hour">Gegossen vor %1$d Stunde%2$s</string>
+    <string name="last_measured_now">Gerade gemessen</string>
+    <string name="last_measured_minute">Gemessen vor %1$d Minute%2$s</string>
+    <string name="last_measured_hour">Gemessen vor %1$d Stunde%2$s</string>
+
+    <string name="zonedelete_warning_title">Gie&#223;zone %1$d l&#246;schen?</string>
+    <string name="zonedelete_warning_title_example">Gie&#223;zone 1 l&#246;schen?</string>
+    <string name="zonedelete_warning_text">Bloom wird hier weder gießen\nnoch die Feuchtigkeit messen\n\nDer Sensor wird sich in sp&#228;testens einer Stunde selbst deaktivieren</string>
+    <string name="zone_delete_btn">Gie&#223;zone l&#246;schen</string>
+    <string name="zone_delete_cancel">Abbrechen</string>
+
+    <string name="zoneid">Zone  </string>
+
+    <!--Content-Description:-->
+    <string name="plantImage">Plant Image</string>
+    <string name="warningSymbol">Warning Symbol</string>
+    <string name="editIcon">Edit Icon</string>
+    <string name="batteryIcon">Battery Icon</string>
+    <string name="batteryAlert">Battery Alert</string>
+    <string name="BG">Background</string>
+    <string name="dots">three dots</string>
+    <string name="backButton">Back Button</string>
+    <string name="closeButton">Close Button</string>
+    <string name="bloomBox">Bloom Box</string>
+    <string name="mvCircle">Moisture Value Circle</string>
+    <string name="timerCircle">Timer Circle</string>
+    <string name="footer">Footer for delete</string>
+    <string name="forward">Forward Icon</string>
+    <string name="title">Title</string>
+    <string name="weatherIcon">Weather Icon</string>
+    <string name="addIcon">Add Icon</string>
+    <string name="arrow">Arrow</string>
+</resources>

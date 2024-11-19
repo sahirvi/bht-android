@@ -1,0 +1,7 @@
+<resources>
+    <!--@author: Dominik Domonell-->
+    <dimen name="header">24sp</dimen>
+    <dimen name="body_text">16sp</dimen>
+    <dimen name="btn_font">16sp</dimen>
+    <dimen name="moisture_text">12sp</dimen>
+</resources>

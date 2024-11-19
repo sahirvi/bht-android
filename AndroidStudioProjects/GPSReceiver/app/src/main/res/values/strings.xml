@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GPSReceiver</string>
+    <string name="hoehe">Höhe</string>
+    <string name="laenge">Länge</string>
+    <string name="breite">Breite</string>
+    <string name="geschwindigkeit">Geschwindigkeit</string>
+</resources>

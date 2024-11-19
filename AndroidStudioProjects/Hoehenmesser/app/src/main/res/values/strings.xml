@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Hoehenmesser</string>
+    <string name="defaultPressure">defaultPressure</string>
+</resources>
